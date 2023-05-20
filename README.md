@@ -1,8 +1,10 @@
 # fastapi-test
 
-チュートリアルを実施します。
+poetryのテスト用として、fastapiのフレームワークを試してみます。
 
-```
+参考['https://fastapi.tiangolo.com/ja/']
+
+``` bash
 # set up
 poetry init -n
 poetry add fastapi
@@ -12,7 +14,6 @@ poetry add uvicorn[standard]
 poetry run uvicorn main:app --reload
 ```
 
-http://localhost:8000/
-http://localhost:8000/docs
+URL['http://localhost:8000/']
 
-https://fastapi.tiangolo.com/ja/
+URL['http://localhost:8000/docs']
