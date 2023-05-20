@@ -5,15 +5,11 @@ poetryのテスト用として、fastapiのフレームワークを試してみ�
 [参考](https://fastapi.tiangolo.com/ja/)
 
 ``` bash
-# set up
-poetry init -n
-poetry add fastapi
-poetry add uvicorn[standard]
+# install
+poetry install
 
 # run
 poetry run uvicorn main:app --reload
 ```
 
-[URL](http://localhost:8000/)
-
-[URL](http://localhost:8000/docs)
+[確認用URL](http://localhost:8000/)
